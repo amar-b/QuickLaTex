@@ -1,0 +1,2 @@
+tex2svg --font 'STIX-Web' 'log_{▪}{▯}' > w2.svg
+

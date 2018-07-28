@@ -1,0 +1,17 @@
+{
+  "short_name": "LaTex Quick Editor",
+  "name": "LaTex Quick Editor",
+  "manifest_version": 2,  
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Letex Quick Editor"
+  },
+  "permissions": [
+    "storage"
+  ],
+   "background": {
+      "page": "bg.html"
+  },
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'",
+  "version": "1.0"
+}
