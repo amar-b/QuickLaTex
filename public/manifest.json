@@ -6,11 +6,16 @@
     "default_popup": "index.html",
     "default_title": "Letex Quick Editor"
   },
+  "icons": {
+    "16": "images/calc16.png",
+    "48": "images/calc48.png",
+    "128": "images/calc128.png"
+  },
   "permissions": [
     "storage"
   ],
    "background": {
-      "page": "bg.html"
+    "page": "bg.html"
   },
   "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'",
   "version": "1.0"
